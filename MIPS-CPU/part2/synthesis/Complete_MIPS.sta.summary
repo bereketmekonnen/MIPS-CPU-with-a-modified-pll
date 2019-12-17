@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'MIPS:CPU|OpSave.add'
+Slack : -96.194
+TNS   : -5979.602
+
+Type  : Slow 1100mV 85C Model Setup 'fastest_clk'
+Slack : -6.113
+TNS   : -175.588
+
+Type  : Slow 1100mV 85C Model Hold 'MIPS:CPU|OpSave.add'
+Slack : -1.754
+TNS   : -35.144
+
+Type  : Slow 1100mV 85C Model Hold 'fastest_clk'
+Slack : -0.697
+TNS   : -8.516
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'MIPS:CPU|OpSave.add'
+Slack : -0.278
+TNS   : -11.832
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.817
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'fastest_clk'
+Slack : 13.100
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 426.414
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'MIPS:CPU|OpSave.add'
+Slack : -99.685
+TNS   : -6216.353
+
+Type  : Slow 1100mV 0C Model Setup 'fastest_clk'
+Slack : -6.064
+TNS   : -173.950
+
+Type  : Slow 1100mV 0C Model Hold 'MIPS:CPU|OpSave.add'
+Slack : -1.848
+TNS   : -43.508
+
+Type  : Slow 1100mV 0C Model Hold 'fastest_clk'
+Slack : -0.611
+TNS   : -5.806
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'MIPS:CPU|OpSave.add'
+Slack : -0.351
+TNS   : -23.170
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.835
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'fastest_clk'
+Slack : 13.132
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 426.425
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'MIPS:CPU|OpSave.add'
+Slack : -47.082
+TNS   : -2897.985
+
+Type  : Fast 1100mV 85C Model Setup 'fastest_clk'
+Slack : -3.646
+TNS   : -106.060
+
+Type  : Fast 1100mV 85C Model Hold 'MIPS:CPU|OpSave.add'
+Slack : -1.285
+TNS   : -42.118
+
+Type  : Fast 1100mV 85C Model Hold 'fastest_clk'
+Slack : -0.526
+TNS   : -9.483
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'MIPS:CPU|OpSave.add'
+Slack : -0.123
+TNS   : -3.362
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.451
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'fastest_clk'
+Slack : 13.276
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 426.577
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'MIPS:CPU|OpSave.add'
+Slack : -44.301
+TNS   : -2741.465
+
+Type  : Fast 1100mV 0C Model Setup 'fastest_clk'
+Slack : -3.264
+TNS   : -95.014
+
+Type  : Fast 1100mV 0C Model Hold 'MIPS:CPU|OpSave.add'
+Slack : -1.171
+TNS   : -38.729
+
+Type  : Fast 1100mV 0C Model Hold 'fastest_clk'
+Slack : -0.487
+TNS   : -8.400
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'MIPS:CPU|OpSave.add'
+Slack : -0.020
+TNS   : -0.093
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.417
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'fastest_clk'
+Slack : 13.323
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 426.573
+TNS   : 0.000
+
+------------------------------------------------------------

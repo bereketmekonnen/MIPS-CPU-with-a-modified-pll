@@ -1,0 +1,1 @@
+-o C:/My_Designs/espinoza_lab3/part2/compile -lc C:/My_Designs/espinoza_lab3/library.cfg -fl C:/My_Designs/espinoza_lab3/part2/projlib.cfg -pli "C:/Aldec/Active-HDL-10.5/bin/systf.dll" -epr C:/My_Designs/espinoza_lab3/part2/compile/part2.epr -dbg -sve -msg 5 -sv2k12 -work part2 C:/My_Designs/espinoza_lab3/part2/src/fastest_pll_0002.v 

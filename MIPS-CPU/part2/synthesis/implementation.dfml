@@ -1,0 +1,1255 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Shell
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Copyright (C) 2017  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details.
+    Info: Processing started: Wed Mar 06 23:53:53 2019
+Info: Command: quartus_sh --flow compile part2.qpf -c Complete_MIPS
+Info: Quartus(args): compile part2.qpf -c Complete_MIPS
+Info: Project Name = C:/My_Designs/espinoza_lab3/part2/synthesis/part2
+Info: Revision Name = Complete_MIPS
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Wed Mar 06 23:53:54 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off part2 -c Complete_MIPS
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/espinoza_lab3/part2/src/mips.vhd
+    Info (12022): Found design unit 1: MIPS-structure File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 15
+    Info (12023): Found entity 1: MIPS File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 5
+Warning (12090): Entity "MUX" obtained from "../src/MUX.vhd" instead of from Quartus Prime megafunction library File: C:/My_Designs/espinoza_lab3/part2/src/MUX.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/espinoza_lab3/part2/src/mux.vhd
+    Info (12022): Found design unit 1: MUX-behavioral File: C:/My_Designs/espinoza_lab3/part2/src/MUX.vhd Line: 12
+    Info (12023): Found entity 1: MUX File: C:/My_Designs/espinoza_lab3/part2/src/MUX.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/espinoza_lab3/part2/src/hextosevensegment.vhd
+    Info (12022): Found design unit 1: hexToSevenSegment-dataflow File: C:/My_Designs/espinoza_lab3/part2/src/hexToSevenSegment.vhd Line: 19
+    Info (12023): Found entity 1: hexToSevenSegment File: C:/My_Designs/espinoza_lab3/part2/src/hexToSevenSegment.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/espinoza_lab3/part2/src/memory.vhd
+    Info (12022): Found design unit 1: Memory-Internal File: C:/My_Designs/espinoza_lab3/part2/src/Memory.vhd Line: 13
+    Info (12023): Found entity 1: Memory File: C:/My_Designs/espinoza_lab3/part2/src/Memory.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/espinoza_lab3/part2/src/complete_mips.vhd
+    Info (12022): Found design unit 1: Complete_MIPS-model File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 19
+    Info (12023): Found entity 1: Complete_MIPS File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/espinoza_lab3/part2/src/reg.vhd
+    Info (12022): Found design unit 1: REG-Behavioral File: C:/My_Designs/espinoza_lab3/part2/src/REG.vhd Line: 13
+    Info (12023): Found entity 1: REG File: C:/My_Designs/espinoza_lab3/part2/src/REG.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/espinoza_lab3/part2/src/statetoledr.vhd
+    Info (12022): Found design unit 1: stateToLEDR-dataflow File: C:/My_Designs/espinoza_lab3/part2/src/stateToLEDR.vhd Line: 10
+    Info (12023): Found entity 1: stateToLEDR File: C:/My_Designs/espinoza_lab3/part2/src/stateToLEDR.vhd Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file /my_designs/espinoza_lab3/part2/src/fastest_pll_0002.v
+    Info (12023): Found entity 1: fastest_pll_0002 File: C:/My_Designs/espinoza_lab3/part2/src/fastest_pll_0002.v Line: 2
+Info (12021): Found 2 design units, including 1 entities, in source file /my_designs/espinoza_lab3/part2/src/fastest_pll.vhd
+    Info (12022): Found design unit 1: fastest_pll-rtl File: C:/My_Designs/espinoza_lab3/part2/src/fastest_pll.vhd Line: 19
+    Info (12023): Found entity 1: fastest_pll File: C:/My_Designs/espinoza_lab3/part2/src/fastest_pll.vhd Line: 11
+Info (12127): Elaborating entity "Complete_MIPS" for the top level hierarchy
+Warning (10873): Using initial value X (don't care) for net "LEDR[9..5]" at Complete_MIPS.vhd(9) File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 9
+Info (12128): Elaborating entity "fastest_pll_0002" for hierarchy "fastest_pll_0002:PLL1" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 73
+Info (12128): Elaborating entity "altera_pll" for hierarchy "fastest_pll_0002:PLL1|altera_pll:altera_pll_i" File: C:/My_Designs/espinoza_lab3/part2/src/fastest_pll_0002.v Line: 85
+Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
+Info (12130): Elaborated megafunction instantiation "fastest_pll_0002:PLL1|altera_pll:altera_pll_i" File: C:/My_Designs/espinoza_lab3/part2/src/fastest_pll_0002.v Line: 85
+Info (12133): Instantiated megafunction "fastest_pll_0002:PLL1|altera_pll:altera_pll_i" with the following parameter: File: C:/My_Designs/espinoza_lab3/part2/src/fastest_pll_0002.v Line: 85
+    Info (12134): Parameter "fractional_vco_multiplier" = "false"
+    Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
+    Info (12134): Parameter "operation_mode" = "direct"
+    Info (12134): Parameter "number_of_clocks" = "1"
+    Info (12134): Parameter "output_clock_frequency0" = "34.600000 MHz"
+    Info (12134): Parameter "phase_shift0" = "0 ps"
+    Info (12134): Parameter "duty_cycle0" = "50"
+    Info (12134): Parameter "output_clock_frequency1" = "0 MHz"
+    Info (12134): Parameter "phase_shift1" = "0 ps"
+    Info (12134): Parameter "duty_cycle1" = "50"
+    Info (12134): Parameter "output_clock_frequency2" = "0 MHz"
+    Info (12134): Parameter "phase_shift2" = "0 ps"
+    Info (12134): Parameter "duty_cycle2" = "50"
+    Info (12134): Parameter "output_clock_frequency3" = "0 MHz"
+    Info (12134): Parameter "phase_shift3" = "0 ps"
+    Info (12134): Parameter "duty_cycle3" = "50"
+    Info (12134): Parameter "output_clock_frequency4" = "0 MHz"
+    Info (12134): Parameter "phase_shift4" = "0 ps"
+    Info (12134): Parameter "duty_cycle4" = "50"
+    Info (12134): Parameter "output_clock_frequency5" = "0 MHz"
+    Info (12134): Parameter "phase_shift5" = "0 ps"
+    Info (12134): Parameter "duty_cycle5" = "50"
+    Info (12134): Parameter "output_clock_frequency6" = "0 MHz"
+    Info (12134): Parameter "phase_shift6" = "0 ps"
+    Info (12134): Parameter "duty_cycle6" = "50"
+    Info (12134): Parameter "output_clock_frequency7" = "0 MHz"
+    Info (12134): Parameter "phase_shift7" = "0 ps"
+    Info (12134): Parameter "duty_cycle7" = "50"
+    Info (12134): Parameter "output_clock_frequency8" = "0 MHz"
+    Info (12134): Parameter "phase_shift8" = "0 ps"
+    Info (12134): Parameter "duty_cycle8" = "50"
+    Info (12134): Parameter "output_clock_frequency9" = "0 MHz"
+    Info (12134): Parameter "phase_shift9" = "0 ps"
+    Info (12134): Parameter "duty_cycle9" = "50"
+    Info (12134): Parameter "output_clock_frequency10" = "0 MHz"
+    Info (12134): Parameter "phase_shift10" = "0 ps"
+    Info (12134): Parameter "duty_cycle10" = "50"
+    Info (12134): Parameter "output_clock_frequency11" = "0 MHz"
+    Info (12134): Parameter "phase_shift11" = "0 ps"
+    Info (12134): Parameter "duty_cycle11" = "50"
+    Info (12134): Parameter "output_clock_frequency12" = "0 MHz"
+    Info (12134): Parameter "phase_shift12" = "0 ps"
+    Info (12134): Parameter "duty_cycle12" = "50"
+    Info (12134): Parameter "output_clock_frequency13" = "0 MHz"
+    Info (12134): Parameter "phase_shift13" = "0 ps"
+    Info (12134): Parameter "duty_cycle13" = "50"
+    Info (12134): Parameter "output_clock_frequency14" = "0 MHz"
+    Info (12134): Parameter "phase_shift14" = "0 ps"
+    Info (12134): Parameter "duty_cycle14" = "50"
+    Info (12134): Parameter "output_clock_frequency15" = "0 MHz"
+    Info (12134): Parameter "phase_shift15" = "0 ps"
+    Info (12134): Parameter "duty_cycle15" = "50"
+    Info (12134): Parameter "output_clock_frequency16" = "0 MHz"
+    Info (12134): Parameter "phase_shift16" = "0 ps"
+    Info (12134): Parameter "duty_cycle16" = "50"
+    Info (12134): Parameter "output_clock_frequency17" = "0 MHz"
+    Info (12134): Parameter "phase_shift17" = "0 ps"
+    Info (12134): Parameter "duty_cycle17" = "50"
+    Info (12134): Parameter "pll_type" = "General"
+    Info (12134): Parameter "pll_subtype" = "General"
+Info (12128): Elaborating entity "MUX" for hierarchy "MUX:MUX1" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 75
+Info (12128): Elaborating entity "MIPS" for hierarchy "MIPS:CPU" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 76
+Warning (10036): Verilog HDL or VHDL warning at MIPS.vhd(36): object "Writing" assigned a value but never read File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 36
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(111): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 111
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(112): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 112
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(113): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 113
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(114): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 114
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(115): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 115
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(116): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 116
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(117): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 117
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(121): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 121
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(122): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 122
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(123): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 123
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(126): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 126
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(129): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 129
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(129): signal "Regs_64" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 129
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(130): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 130
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(130): signal "Regs_64" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 130
+Warning (10492): VHDL Process Statement warning at MIPS.vhd(136): signal "OpSave" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 136
+Warning (10631): VHDL Process Statement warning at MIPS.vhd(70): inferring latch(es) for signal or variable "Regs_64", which holds its previous value in one or more paths through the process File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[0]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[1]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[2]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[3]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[4]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[5]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[6]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[7]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[8]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[9]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[10]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[11]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[12]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[13]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[14]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[15]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[16]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[17]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[18]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[19]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[20]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[21]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[22]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[23]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[24]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[25]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[26]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[27]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[28]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[29]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[30]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[31]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[32]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[33]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[34]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[35]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[36]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[37]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[38]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[39]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[40]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[41]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[42]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[43]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[44]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[45]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[46]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[47]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[48]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[49]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[50]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[51]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[52]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[53]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[54]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[55]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[56]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[57]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[58]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[59]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[60]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[61]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[62]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (10041): Inferred latch for "Regs_64[63]" at MIPS.vhd(70) File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+Info (12128): Elaborating entity "REG" for hierarchy "MIPS:CPU|REG:A1" File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 56
+Info (12128): Elaborating entity "stateToLEDR" for hierarchy "MIPS:CPU|stateToLEDR:S2L" File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 68
+Info (12128): Elaborating entity "Memory" for hierarchy "Memory:MEM" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 77
+Info (12128): Elaborating entity "hexToSevenSegment" for hierarchy "hexToSevenSegment:H2S" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 78
+Warning (10492): VHDL Process Statement warning at hexToSevenSegment.vhd(64): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/hexToSevenSegment.vhd Line: 64
+Warning (10492): VHDL Process Statement warning at hexToSevenSegment.vhd(65): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/hexToSevenSegment.vhd Line: 65
+Warning (10492): VHDL Process Statement warning at hexToSevenSegment.vhd(66): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/hexToSevenSegment.vhd Line: 66
+Warning (10492): VHDL Process Statement warning at hexToSevenSegment.vhd(67): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/hexToSevenSegment.vhd Line: 67
+Warning (10492): VHDL Process Statement warning at hexToSevenSegment.vhd(70): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/hexToSevenSegment.vhd Line: 70
+Warning (10492): VHDL Process Statement warning at hexToSevenSegment.vhd(71): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/hexToSevenSegment.vhd Line: 71
+Warning (10492): VHDL Process Statement warning at hexToSevenSegment.vhd(72): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/hexToSevenSegment.vhd Line: 72
+Warning (10492): VHDL Process Statement warning at hexToSevenSegment.vhd(73): signal "output" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/My_Designs/espinoza_lab3/part2/src/hexToSevenSegment.vhd Line: 73
+Warning (19016): Clock multiplexers are found and protected
+    Warning (19017): Found clock multiplexer MUX:MUX1|CLK File: C:/My_Designs/espinoza_lab3/part2/src/MUX.vhd Line: 9
+Warning (276020): Inferred RAM node "MIPS:CPU|REG:A1|Regs_rtl_0" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
+Warning (276020): Inferred RAM node "MIPS:CPU|REG:A1|Regs_rtl_1" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
+Info (19000): Inferred 3 megafunctions from design logic
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "Memory:MEM|RAM1_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
+        Info (286033): Parameter WIDTH_A set to 32
+        Info (286033): Parameter WIDTHAD_A set to 10
+        Info (286033): Parameter NUMWORDS_A set to 1024
+        Info (286033): Parameter WIDTH_B set to 32
+        Info (286033): Parameter WIDTHAD_B set to 10
+        Info (286033): Parameter NUMWORDS_B set to 1024
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_REG_B set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_B set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_B set to NONE
+        Info (286033): Parameter ADDRESS_REG_B set to CLOCK0
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+        Info (286033): Parameter INIT_FILE set to db/Complete_MIPS.ram0_Memory_a0c6519c.hdl.mif
+        Info (286033): Parameter READ_DURING_WRITE_MODE_MIXED_PORTS set to OLD_DATA
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "MIPS:CPU|REG:A1|Regs_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
+        Info (286033): Parameter WIDTH_A set to 32
+        Info (286033): Parameter WIDTHAD_A set to 5
+        Info (286033): Parameter NUMWORDS_A set to 32
+        Info (286033): Parameter WIDTH_B set to 32
+        Info (286033): Parameter WIDTHAD_B set to 5
+        Info (286033): Parameter NUMWORDS_B set to 32
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_REG_B set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_B set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_B set to NONE
+        Info (286033): Parameter ADDRESS_REG_B set to CLOCK0
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+        Info (286033): Parameter INIT_FILE set to db/Complete_MIPS.ram0_REG_15692.hdl.mif
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "MIPS:CPU|REG:A1|Regs_rtl_1" 
+        Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
+        Info (286033): Parameter WIDTH_A set to 32
+        Info (286033): Parameter WIDTHAD_A set to 5
+        Info (286033): Parameter NUMWORDS_A set to 32
+        Info (286033): Parameter WIDTH_B set to 32
+        Info (286033): Parameter WIDTHAD_B set to 5
+        Info (286033): Parameter NUMWORDS_B set to 32
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_REG_B set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_B set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_B set to NONE
+        Info (286033): Parameter ADDRESS_REG_B set to CLOCK0
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+        Info (286033): Parameter INIT_FILE set to db/Complete_MIPS.ram0_REG_15692.hdl.mif
+Info (278001): Inferred 4 megafunctions from design logic
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "MIPS:CPU|Div1" File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 128
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "MIPS:CPU|Div0" File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 125
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "MIPS:CPU|Mod1" File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 127
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "MIPS:CPU|Mod0" File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 124
+Info (12130): Elaborated megafunction instantiation "Memory:MEM|altsyncram:RAM1_rtl_0"
+Info (12133): Instantiated megafunction "Memory:MEM|altsyncram:RAM1_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
+    Info (12134): Parameter "WIDTH_A" = "32"
+    Info (12134): Parameter "WIDTHAD_A" = "10"
+    Info (12134): Parameter "NUMWORDS_A" = "1024"
+    Info (12134): Parameter "WIDTH_B" = "32"
+    Info (12134): Parameter "WIDTHAD_B" = "10"
+    Info (12134): Parameter "NUMWORDS_B" = "1024"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_REG_B" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_B" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_B" = "NONE"
+    Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK0"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+    Info (12134): Parameter "INIT_FILE" = "db/Complete_MIPS.ram0_Memory_a0c6519c.hdl.mif"
+    Info (12134): Parameter "READ_DURING_WRITE_MODE_MIXED_PORTS" = "OLD_DATA"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_5hs1.tdf
+    Info (12023): Found entity 1: altsyncram_5hs1 File: C:/My_Designs/espinoza_lab3/part2/synthesis/db/altsyncram_5hs1.tdf Line: 27
+Info (12130): Elaborated megafunction instantiation "MIPS:CPU|REG:A1|altsyncram:Regs_rtl_0"
+Info (12133): Instantiated megafunction "MIPS:CPU|REG:A1|altsyncram:Regs_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
+    Info (12134): Parameter "WIDTH_A" = "32"
+    Info (12134): Parameter "WIDTHAD_A" = "5"
+    Info (12134): Parameter "NUMWORDS_A" = "32"
+    Info (12134): Parameter "WIDTH_B" = "32"
+    Info (12134): Parameter "WIDTHAD_B" = "5"
+    Info (12134): Parameter "NUMWORDS_B" = "32"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_REG_B" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_B" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_B" = "NONE"
+    Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK0"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+    Info (12134): Parameter "INIT_FILE" = "db/Complete_MIPS.ram0_REG_15692.hdl.mif"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ojo1.tdf
+    Info (12023): Found entity 1: altsyncram_ojo1 File: C:/My_Designs/espinoza_lab3/part2/synthesis/db/altsyncram_ojo1.tdf Line: 27
+Info (12130): Elaborated megafunction instantiation "MIPS:CPU|lpm_divide:Div1" File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 128
+Info (12133): Instantiated megafunction "MIPS:CPU|lpm_divide:Div1" with the following parameter: File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 128
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "32"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_3dm.tdf
+    Info (12023): Found entity 1: lpm_divide_3dm File: C:/My_Designs/espinoza_lab3/part2/synthesis/db/lpm_divide_3dm.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_9nh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_9nh File: C:/My_Designs/espinoza_lab3/part2/synthesis/db/sign_div_unsign_9nh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_o2f.tdf
+    Info (12023): Found entity 1: alt_u_div_o2f File: C:/My_Designs/espinoza_lab3/part2/synthesis/db/alt_u_div_o2f.tdf Line: 22
+Info (12130): Elaborated megafunction instantiation "MIPS:CPU|lpm_divide:Div0" File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 125
+Info (12133): Instantiated megafunction "MIPS:CPU|lpm_divide:Div0" with the following parameter: File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 125
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "32"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "LPM_HINT" = "LPM_REMAINDERPOSITIVE=FALSE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_rqo.tdf
+    Info (12023): Found entity 1: lpm_divide_rqo File: C:/My_Designs/espinoza_lab3/part2/synthesis/db/lpm_divide_rqo.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/abs_divider_4dg.tdf
+    Info (12023): Found entity 1: abs_divider_4dg File: C:/My_Designs/espinoza_lab3/part2/synthesis/db/abs_divider_4dg.tdf Line: 26
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_abs_4p9.tdf
+    Info (12023): Found entity 1: lpm_abs_4p9 File: C:/My_Designs/espinoza_lab3/part2/synthesis/db/lpm_abs_4p9.tdf Line: 22
+Info (12130): Elaborated megafunction instantiation "MIPS:CPU|lpm_divide:Mod1" File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 127
+Info (12133): Instantiated megafunction "MIPS:CPU|lpm_divide:Mod1" with the following parameter: File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 127
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "32"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_65m.tdf
+    Info (12023): Found entity 1: lpm_divide_65m File: C:/My_Designs/espinoza_lab3/part2/synthesis/db/lpm_divide_65m.tdf Line: 24
+Info (12130): Elaborated megafunction instantiation "MIPS:CPU|lpm_divide:Mod0" File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 124
+Info (12133): Instantiated megafunction "MIPS:CPU|lpm_divide:Mod0" with the following parameter: File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 124
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "32"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "LPM_HINT" = "LPM_REMAINDERPOSITIVE=FALSE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_uio.tdf
+    Info (12023): Found entity 1: lpm_divide_uio File: C:/My_Designs/espinoza_lab3/part2/synthesis/db/lpm_divide_uio.tdf Line: 24
+Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (13012): Latch MIPS:CPU|Regs_64[0] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[32] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[1] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[33] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[2] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[34] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[3] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[35] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[16] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[48] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[17] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[49] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[18] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[50] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[19] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[51] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[4] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[36] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[5] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[37] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[6] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[38] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[7] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[39] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[20] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[52] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[21] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[53] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[22] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[54] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[23] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[55] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[8] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[40] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[9] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[41] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[10] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[42] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[11] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[43] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[24] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[56] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[25] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[57] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[26] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[58] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[27] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[59] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[12] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[44] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[13] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[45] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[14] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[46] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[15] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[47] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[60] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[28] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[61] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[29] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[62] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[30] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[63] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.mult File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13012): Latch MIPS:CPU|Regs_64[31] has unsafe behavior File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 70
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal MIPS:CPU|OpSave.multu File: C:/My_Designs/espinoza_lab3/part2/src/MIPS.vhd Line: 28
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 9
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 9
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 9
+    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 9
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 9
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 9
+    Warning (13410): Pin "HEX0[3]" is stuck at VCC File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 10
+    Warning (13410): Pin "HEX1[6]" is stuck at VCC File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 11
+    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 11
+    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 11
+Info (286030): Timing-Driven Synthesis is running
+Info (17016): Found the following redundant logic cells in design
+    Info (17048): Logic cell "RST" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 66
+Warning (20013): Ignored 189 assignments for entity "myFirstFpga" -- entity does not exist in design
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_CONVST -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_DIN -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_DOUT -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_SCLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_ADCDAT -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_ADCLRCK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_BCLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_DACDAT -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_DACLRCK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_XCK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK2_50 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to CLOCK3_50 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK4_50 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK_50 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[10] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[11] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[12] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[8] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[9] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_BA[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_BA[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CAS_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CKE -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CS_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[10] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[11] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[12] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[13] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[14] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[15] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[8] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[9] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_LDQM -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_RAS_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_UDQM -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_WE_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_I2C_SCLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_I2C_SDAT -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IRDA_RXD -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IRDA_TXD -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[8] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[9] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_CLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_CLK2 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_DAT -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_DAT2 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[8] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[9] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_CLK27 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_HS -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_RESET_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_VS -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_BLANK_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_CLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_HS -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_SYNC_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_VS -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_PRESERVE_HIGH_SPEED_TILES ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IGNORE_SOURCE_FILE_CHANGES OFF -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_ALWAYS_USE_QXP_NETLIST OFF -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_ASSIGNMENTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_EXISTING_ASSIGNMENTS REPLACE_CONFLICTING -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_EXISTING_LOGICLOCK_REGIONS UPDATE_CONFLICTING -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_PIN_ASSIGNMENTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_PROMOTE_ASSIGNMENTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_TYPE STANDARD_PARTITION -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name ALLOW_MULTIPLE_PERSONAS OFF -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_ASD_REGION_ID 1 -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name CROSS_BOUNDARY_OPTIMIZATIONS OFF -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PROPAGATE_CONSTANTS_ON_INPUTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PROPAGATE_INVERSIONS_ON_INPUTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name REMOVE_LOGIC_ON_UNCONNECTED_OUTPUTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name MERGE_EQUIVALENT_INPUTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name MERGE_EQUIVALENT_BIDIRS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name ABSORB_PATHS_FROM_OUTPUTS_TO_INPUTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_EXTRACT_HARD_BLOCK_NODES ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_ENABLE_STRICT_PRESERVATION OFF -entity myFirstFpga -section_id Top was ignored
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 3 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
+Warning: RST port on the PLL is not properly connected on instance fastest_pll_0002:PLL1|altera_pll:altera_pll_i|general[0].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: d:/intelfpga_lite/17.1/quartus/libraries/megafunctions/altera_pll.v Line: 748
+    Info: Must be connected
+Warning (21074): Design contains 8 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 7
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 7
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 7
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 7
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 7
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 7
+    Warning (15610): No output dependent on input pin "KEY[2]" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 8
+    Warning (15610): No output dependent on input pin "KEY[3]" File: C:/My_Designs/espinoza_lab3/part2/src/Complete_MIPS.vhd Line: 8
+Info (21057): Implemented 6356 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 15 input pins
+    Info (21059): Implemented 116 output pins
+    Info (21061): Implemented 6122 logic cells
+    Info (21064): Implemented 96 RAM segments
+    Info (21065): Implemented 1 PLLs
+    Info (21062): Implemented 6 DSP elements
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 373 warnings
+    Info: Peak virtual memory: 860 megabytes
+    Info: Processing ended: Wed Mar 06 23:54:15 2019
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:29
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Wed Mar 06 23:54:16 2019
+Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off part2 -c Complete_MIPS
+Info: qfit2_default_script.tcl version: #3
+Info: Project  = part2
+Info: Revision = Complete_MIPS
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (119006): Selected device 5CSXFC6D6F31C7 for design "Complete_MIPS"
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Warning: RST port on the PLL is not properly connected on instance fastest_pll_0002:PLL1|altera_pll:altera_pll_i|general[0].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: d:/intelfpga_lite/17.1/quartus/libraries/megafunctions/altera_pll.v Line: 748
+    Info: Must be connected
+Warning (21300): LOCKED port on the PLL is not properly connected on instance "fastest_pll_0002:PLL1|altera_pll:altera_pll_i|general[0].gpll". The LOCKED port on the PLL should be connected when the FBOUTCLK port is connected. Although it is unnecessary to connect the LOCKED signal, any logic driven off of an output clock of the PLL will not know when the PLL is locked and ready.
+Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
+Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
+Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+Info (176045): Design uses memory blocks. Violating setup or hold times of memory block address registers for either read or write operations could cause memory contents to be corrupted. Make sure that all memory block address registers meet the setup and hold time requirements.
+Critical Warning (169085): No exact pin location assignment(s) for 64 pins of 131 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
+Info (184020): Starting Fitter periphery placement operations
+Warning (177007): PLL(s) placed in location FRACTIONALPLL_X0_Y15_N0 do not have a PLL clock to compensate specified - the Fitter will attempt to compensate all PLL clocks
+    Info (177008): PLL fastest_pll_0002:PLL1|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL
+Info (11178): Promoted 1 clock (1 global)
+    Info (11162): CLK_1~CLKENA0 with 1 fanout uses global clock CLKCTRL_G0
+Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:00
+Warning (335093): TimeQuest Timing Analyzer is analyzing 64 combinational loops as latches. For more details, run the Check Timing command in the TimeQuest Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
+Info (332104): Reading SDC File: 'Complete_MIPS.sdc'
+Info (332097): The following timing edges are non-unate.  TimeQuest will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Clock: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found on node: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] with settings that do not match the following PLL specifications:
+        Warning (332056): -multiply_by (expected: 173, found: 12), -divide_by (expected: 10, found: 2)
+Info (332129): Detected timing requirements -- optimizing circuit to achieve only the specified requirements
+Info (332111): Found 5 clocks
+    Info (332111):   Period   Clock Name
+    Info (332111): ======== ============
+    Info (332111):   20.000     CLOCK_50
+    Info (332111):   28.900  fastest_clk
+    Info (332111):    1.000 MIPS:CPU|OpSave.add
+    Info (332111):    3.333 PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]
+    Info (332111):  853.333 PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk
+Info (176233): Starting register packing
+Info (176235): Finished register packing
+    Extra Info (176219): No registers were packed into other blocks
+Warning (15705): Ignored locations or region assignments to the following nodes
+    Warning (15706): Node "ADC_CONVST" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ADC_DIN" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ADC_DOUT" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "ADC_SCLK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "AUD_ADCDAT" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "AUD_ADCLRCK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "AUD_BCLK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "AUD_DACDAT" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "AUD_DACLRCK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "AUD_XCK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "CLOCK2_50" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "CLOCK3_50" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "CLOCK4_50" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[10]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[11]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[12]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[8]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_ADDR[9]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_BA[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_BA[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_CAS_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_CKE" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_CLK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_CS_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[10]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[11]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[12]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[13]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[14]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[15]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[8]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_DQ[9]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_LDQM" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_RAS_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_UDQM" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "DRAM_WE_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "FPGA_I2C_SCLK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "FPGA_I2C_SDAT" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "IRDA_RXD" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "IRDA_TXD" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "PS2_CLK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "PS2_CLK2" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "PS2_DAT" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "PS2_DAT2" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_CLK27" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_DATA[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_DATA[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_DATA[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_DATA[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_DATA[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_DATA[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_DATA[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_DATA[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_HS" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_RESET_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TD_VS" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_BLANK_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_B[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_CLK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_G[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_HS" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[0]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[1]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[2]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[3]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[4]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[5]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[6]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_R[7]" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_SYNC_N" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "VGA_VS" is assigned to location or region, but does not exist in design
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:13
+Info (170189): Fitter placement preparation operations beginning
+Info (14951): The Fitter is using Advanced Physical Optimization.
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:15
+Info (170191): Fitter placement operations beginning
+Info (170137): Fitter placement was successful
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:13
+Info (170193): Fitter routing operations beginning
+Info (170195): Router estimated average interconnect usage is 3% of the available device resources
+    Info (170196): Router estimated peak interconnect usage is 27% of the available device resources in the region that extends from location X33_Y23 to location X44_Y34
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:30
+Info (11888): Total time spent on timing analysis during the Fitter is 11.65 seconds.
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:17
+Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
+Info (144001): Generated suppressed messages file C:/My_Designs/espinoza_lab3/part2/synthesis/Complete_MIPS.fit.smsg
+Info: Quartus Prime Fitter was successful. 0 errors, 114 warnings
+    Info: Peak virtual memory: 2709 megabytes
+    Info: Processing ended: Wed Mar 06 23:56:32 2019
+    Info: Elapsed time: 00:02:16
+    Info: Total CPU time (on all processors): 00:04:33
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Wed Mar 06 23:56:35 2019
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off part2 -c Complete_MIPS
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (115030): Assembler is generating device programming files
+Info (210117): Created JAM or JBC file for the specified chain: 
+Device 1 (5CSXFC6D6F31; C:/My_Designs/espinoza_lab3/part2/synthesis/Complete_MIPS.sof)
+Info (210117): Created JAM or JBC file for the specified chain: 
+Device 1 (5CSXFC6D6F31; C:/My_Designs/espinoza_lab3/part2/synthesis/Complete_MIPS.sof)
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 819 megabytes
+    Info: Processing ended: Wed Mar 06 23:57:02 2019
+    Info: Elapsed time: 00:00:27
+    Info: Total CPU time (on all processors): 00:00:25
+Info (293026): Skipped module Power Analyzer due to the assignment FLOW_ENABLE_POWER_ANALYZER
+Info: *******************************************************************
+Info: Running Quartus Prime TimeQuest Timing Analyzer
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Wed Mar 06 23:57:03 2019
+Info: Command: quartus_sta part2 -c Complete_MIPS
+Info: qsta_default_script.tcl version: #3
+Warning (20013): Ignored 189 assignments for entity "myFirstFpga" -- entity does not exist in design
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_CONVST -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_DIN -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_DOUT -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_SCLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_ADCDAT -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_ADCLRCK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_BCLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_DACDAT -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_DACLRCK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_XCK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK2_50 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to CLOCK3_50 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK4_50 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK_50 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[10] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[11] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[12] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[8] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[9] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_BA[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_BA[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CAS_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CKE -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CS_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[10] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[11] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[12] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[13] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[14] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[15] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[8] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[9] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_LDQM -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_RAS_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_UDQM -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_WE_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_I2C_SCLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_I2C_SDAT -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IRDA_RXD -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IRDA_TXD -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[8] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[9] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_CLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_CLK2 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_DAT -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_DAT2 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[8] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[9] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_CLK27 -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_HS -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_RESET_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_VS -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_BLANK_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_CLK -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_HS -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[0] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[1] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[2] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[3] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[4] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[5] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[6] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[7] -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_SYNC_N -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_VS -entity myFirstFpga was ignored
+    Warning (20014): Assignment for entity set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_PRESERVE_HIGH_SPEED_TILES ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IGNORE_SOURCE_FILE_CHANGES OFF -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_ALWAYS_USE_QXP_NETLIST OFF -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_ASSIGNMENTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_EXISTING_ASSIGNMENTS REPLACE_CONFLICTING -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_EXISTING_LOGICLOCK_REGIONS UPDATE_CONFLICTING -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_PIN_ASSIGNMENTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_PROMOTE_ASSIGNMENTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_TYPE STANDARD_PARTITION -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name ALLOW_MULTIPLE_PERSONAS OFF -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_ASD_REGION_ID 1 -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name CROSS_BOUNDARY_OPTIMIZATIONS OFF -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PROPAGATE_CONSTANTS_ON_INPUTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PROPAGATE_INVERSIONS_ON_INPUTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name REMOVE_LOGIC_ON_UNCONNECTED_OUTPUTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name MERGE_EQUIVALENT_INPUTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name MERGE_EQUIVALENT_BIDIRS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name ABSORB_PATHS_FROM_OUTPUTS_TO_INPUTS ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_EXTRACT_HARD_BLOCK_NODES ON -entity myFirstFpga -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_ENABLE_STRICT_PRESERVATION OFF -entity myFirstFpga -section_id Top was ignored
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Warning (335093): TimeQuest Timing Analyzer is analyzing 64 combinational loops as latches. For more details, run the Check Timing command in the TimeQuest Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
+Info (332104): Reading SDC File: 'Complete_MIPS.sdc'
+Info (332097): The following timing edges are non-unate.  TimeQuest will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
+Info (332152): The following assignments are ignored by the derive_clock_uncertainty command
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Clock: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found on node: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] with settings that do not match the following PLL specifications:
+        Warning (332056): -multiply_by (expected: 173, found: 12), -divide_by (expected: 10, found: 2)
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1100mV 85C Model
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -96.194
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):   -96.194           -5979.602 MIPS:CPU|OpSave.add 
+    Info (332119):    -6.113            -175.588 fastest_clk 
+Info (332146): Worst-case hold slack is -1.754
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.754             -35.144 MIPS:CPU|OpSave.add 
+    Info (332119):    -0.697              -8.516 fastest_clk 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -0.278
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -0.278             -11.832 MIPS:CPU|OpSave.add 
+    Info (332119):     1.666               0.000 PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     9.817               0.000 CLOCK_50 
+    Info (332119):    13.100               0.000 fastest_clk 
+    Info (332119):   426.414               0.000 PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info: Analyzing Slow 1100mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332097): The following timing edges are non-unate.  TimeQuest will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
+Info (332152): The following assignments are ignored by the derive_clock_uncertainty command
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Clock: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found on node: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] with settings that do not match the following PLL specifications:
+        Warning (332056): -multiply_by (expected: 173, found: 12), -divide_by (expected: 10, found: 2)
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -99.685
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):   -99.685           -6216.353 MIPS:CPU|OpSave.add 
+    Info (332119):    -6.064            -173.950 fastest_clk 
+Info (332146): Worst-case hold slack is -1.848
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.848             -43.508 MIPS:CPU|OpSave.add 
+    Info (332119):    -0.611              -5.806 fastest_clk 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -0.351
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -0.351             -23.170 MIPS:CPU|OpSave.add 
+    Info (332119):     1.666               0.000 PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     9.835               0.000 CLOCK_50 
+    Info (332119):    13.132               0.000 fastest_clk 
+    Info (332119):   426.425               0.000 PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info: Analyzing Fast 1100mV 85C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332097): The following timing edges are non-unate.  TimeQuest will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
+Info (332152): The following assignments are ignored by the derive_clock_uncertainty command
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Clock: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found on node: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] with settings that do not match the following PLL specifications:
+        Warning (332056): -multiply_by (expected: 173, found: 12), -divide_by (expected: 10, found: 2)
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -47.082
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):   -47.082           -2897.985 MIPS:CPU|OpSave.add 
+    Info (332119):    -3.646            -106.060 fastest_clk 
+Info (332146): Worst-case hold slack is -1.285
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.285             -42.118 MIPS:CPU|OpSave.add 
+    Info (332119):    -0.526              -9.483 fastest_clk 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -0.123
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -0.123              -3.362 MIPS:CPU|OpSave.add 
+    Info (332119):     1.666               0.000 PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     9.451               0.000 CLOCK_50 
+    Info (332119):    13.276               0.000 fastest_clk 
+    Info (332119):   426.577               0.000 PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info: Analyzing Fast 1100mV 0C Model
+Info (332097): The following timing edges are non-unate.  TimeQuest will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  from: refclkin  to: fbclk
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER  from: vco0ph[0]  to: divclk
+    Info (332098): Cell: PLL1|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  from: clkin[0]  to: clkout
+Info (332152): The following assignments are ignored by the derive_clock_uncertainty command
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Clock: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found on node: PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] with settings that do not match the following PLL specifications:
+        Warning (332056): -multiply_by (expected: 173, found: 12), -divide_by (expected: 10, found: 2)
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case setup slack is -44.301
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):   -44.301           -2741.465 MIPS:CPU|OpSave.add 
+    Info (332119):    -3.264             -95.014 fastest_clk 
+Info (332146): Worst-case hold slack is -1.171
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -1.171             -38.729 MIPS:CPU|OpSave.add 
+    Info (332119):    -0.487              -8.400 fastest_clk 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -0.020
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    -0.020              -0.093 MIPS:CPU|OpSave.add 
+    Info (332119):     1.666               0.000 PLL1|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     9.417               0.000 CLOCK_50 
+    Info (332119):    13.323               0.000 fastest_clk 
+    Info (332119):   426.573               0.000 PLL1|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 208 warnings
+    Info: Peak virtual memory: 1301 megabytes
+    Info: Processing ended: Wed Mar 06 23:57:24 2019
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:34
+Info (293000): Quartus Prime Full Compilation was successful. 0 errors, 696 warnings
+Info (23030): Evaluation of Tcl script d:/intelfpga_lite/17.1/quartus/common/tcl/internal/qsh_flow.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 696 warnings
+    Info: Peak virtual memory: 607 megabytes
+    Info: Processing ended: Wed Mar 06 23:57:25 2019
+    Info: Elapsed time: 00:03:32
+    Info: Total CPU time (on all processors): 00:00:08

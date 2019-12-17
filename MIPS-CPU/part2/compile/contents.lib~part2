@@ -1,0 +1,26 @@
+26
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~E 1 "./../src/Complete_MIPS.vhd" 5 Complete_MIPS
+~A 1 "./../src/Complete_MIPS.vhd" 19 model
+~E 1 "./../src/fastest_pll.vhd" 11 fastest_pll
+~A 1 "./../src/fastest_pll.vhd" 19 rtl
+~M 3 "./../src/fastest_pll_0002.v" 2 fastest_pll_0002
+~A 1 "./../src/fastest_pll_0002.v" 2 fastest_pll_0002
+~E 1 "./../src/hexToSevenSegment.vhd" 5 hexToSevenSegment
+~A 1 "./../src/hexToSevenSegment.vhd" 19 dataflow
+~E 1 "./../src/Memory.vhd" 5 Memory
+~A 1 "./../src/Memory.vhd" 13 Internal
+~E 1 "./../src/MIPS.vhd" 5 MIPS
+~A 1 "./../src/MIPS.vhd" 15 structure
+~E 1 "./../src/MIPS_Testbench.vhd" 5 MIPS_Testbench
+~A 1 "./../src/MIPS_Testbench.vhd" 8 test
+~E 1 "./../src/MUX.vhd" 5 MUX
+~A 1 "./../src/MUX.vhd" 12 behavioral
+~E 1 "./../src/pll.vhd" 11 pll
+~M 3 "./../src/pll_0002.v" 2 pll_0002
+~A 1 "./../src/pll_0002.v" 2 pll_0002
+~E 1 "./../src/REG.vhd" 5 REG
+~A 1 "./../src/REG.vhd" 13 Behavioral
+~E 1 "./../src/stateToLEDR.vhd" 5 stateToLEDR
+~A 1 "./../src/stateToLEDR.vhd" 10 dataflow

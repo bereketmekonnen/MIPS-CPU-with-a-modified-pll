@@ -1,0 +1,65 @@
+Active-HDL 10.5.216.6767 2019-03-07 01:21:19
+
+Elaboration top modules:
+Architecture                  model(Complete_MIPS)
+SystemVerilog Package         altera_lnsim_functions
+SystemVerilog Package         altera_generic_pll_functions
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+Entity            | Architecture | Library      | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------------------------
+Complete_MIPS     | model        | part2        |      | 10.5.216.6767 (Windows) | -dbg
+MUX               | behavioral   | part2        |      | 10.5.216.6767 (Windows) | -dbg
+MIPS              | structure    | part2        |      | 10.5.216.6767 (Windows) | -dbg
+Memory            | Internal     | part2        |      | 10.5.216.6767 (Windows) | -dbg
+hexToSevenSegment | dataflow     | part2        |      | 10.5.216.6767 (Windows) | -dbg
+alt_inbuf         | behavior     | altera       |      | 10.5.216.6767 (Windows) | -vendor Intel -93
+alt_outbuf        | behavior     | altera       |      | 10.5.216.6767 (Windows) | -vendor Intel -93
+alt_iobuf         | behavior     | altera       |      | 10.5.216.6767 (Windows) | -vendor Intel -93
+REG               | Behavioral   | part2        |      | 10.5.216.6767 (Windows) | -dbg
+stateToLEDR       | dataflow     | part2        |      | 10.5.216.6767 (Windows) | -dbg
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+Verilog Module                   | Library      | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------------------------
+fastest_pll_0002                 | part2        |      | 10.5.216.6767 (Windows) | -dbg -sv2k12
+altera_pll                       | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+generic_pll                      | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+dps_pulse_gen                    | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+dps_extra_kick                   | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+dprio_init                       | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_pll_dps_lcell_comb        | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_stratixv_pll              | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_arriav_pll                | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_arriavgz_pll              | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_cyclonev_pll              | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+twentynm_iopll_ip                | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+SystemVerilog Package            | Library      | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------------------------
+altera_lnsim_functions           | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+altera_generic_pll_functions     | altera_lnsim |      | 10.5.216.6767 (Windows) | -vendor Intel -sim_feature_tag LNL_ALTERA -sv2k5
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+VHDL Package                     | Library      | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------------------------
+standard                         | std          |      |                         | <unavailable>
+TEXTIO                           | std          |      |                         | <unavailable>
+std_logic_1164                   | ieee         |      |                         | <unavailable>
+NUMERIC_STD                      | ieee         |      |                         | <unavailable>
+------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+Library                          | Comment
+------------------------------------------------------------------------------------------------------------------------------------
+altera                           | Intel FPGA Quartus Prime Standard 17.1 Update 1, ALTERA VHDL library
+altera_lnsim                     | Intel FPGA Quartus Prime Standard 17.1 Update 1, ALTERA_LNSIM VHDL library
+ieee                             | Standard IEEE packages library
+part2                            | None
+std                              | Standard VHDL library
+------------------------------------------------------------------------------------------------------------------------------------

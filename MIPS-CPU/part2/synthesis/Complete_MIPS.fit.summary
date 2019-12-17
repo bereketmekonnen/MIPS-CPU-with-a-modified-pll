@@ -1,0 +1,20 @@
+Fitter Status : Successful - Wed Mar 06 23:56:30 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : Complete_MIPS
+Top-level Entity Name : Complete_MIPS
+Family : Cyclone V
+Device : 5CSXFC6D6F31C7
+Timing Models : Final
+Logic utilization (in ALMs) : 3,550 / 41,910 ( 8 % )
+Total registers : 345
+Total pins : 131 / 499 ( 26 % )
+Total virtual pins : 0
+Total block memory bits : 34,816 / 5,662,720 ( < 1 % )
+Total RAM Blocks : 6 / 553 ( 1 % )
+Total DSP Blocks : 6 / 112 ( 5 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 1 / 15 ( 7 % )
+Total DLLs : 0 / 4 ( 0 % )

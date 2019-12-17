@@ -1,0 +1,17 @@
+[Files List]
+C:\Aldec\Active-HDL-10.5\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-10.5\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-10.5\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-10.5\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Aldec\Active-HDL-10.5\vlib\ieee/src/numeric_std.vhdl=S
+C:\Aldec\Active-HDL-10.5\vlib\ieee/src/numeric_std-body.vhdl=S
+C:\My_Designs\espinoza_lab3\part2/src/stateToLEDR.vhd=S
+C:\My_Designs\espinoza_lab3\part2/src/REG.vhd=S
+C:\Aldec\Active-HDL-10.5\vlib\intel_fpgastd\vhdl\altera/src/altera_primitives.vhd=S
+C:\Aldec\Active-HDL-10.5\vlib\intel_fpgastd\vhdl\altera_lnsim/src/altera_lnsim.sv=S
+C:\My_Designs\espinoza_lab3\part2/src/hexToSevenSegment.vhd=S
+C:\My_Designs\espinoza_lab3\part2/src/Memory.vhd=S
+C:\My_Designs\espinoza_lab3\part2/src/MIPS.vhd=S
+C:\My_Designs\espinoza_lab3\part2/src/MUX.vhd=S
+C:\My_Designs\espinoza_lab3\part2/src/fastest_pll_0002.v=S
+C:\My_Designs\espinoza_lab3\part2/src/Complete_MIPS.vhd=S

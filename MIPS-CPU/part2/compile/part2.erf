@@ -1,0 +1,4 @@
+MESSAGE "File: C:\My_Designs\espinoza_lab3\part2\src\Memory.vhd" 
+MESSAGE "Compile Entity "Memory"" 
+MESSAGE "Compile Architecture "Internal" of Entity "Memory"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 

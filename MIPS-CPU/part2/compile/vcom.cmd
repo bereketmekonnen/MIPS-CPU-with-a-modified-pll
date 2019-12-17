@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/espinoza_lab3/part2/compile/part2.erf -d C:/My_Designs/espinoza_lab3/part2/compile -s C:/My_Designs/espinoza_lab3/library.cfg -j C:/My_Designs/espinoza_lab3/part2/projlib.cfg -work part2 -dbg -e 100 -work part2 -2002 C:/My_Designs/espinoza_lab3/part2/src/Memory.vhd 

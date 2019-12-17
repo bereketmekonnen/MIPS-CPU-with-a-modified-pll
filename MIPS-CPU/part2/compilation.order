@@ -1,0 +1,9 @@
+.\src\MIPS.vhd
+.\src\MUX.vhd
+.\src\hexToSevenSegment.vhd
+.\src\Memory.vhd
+.\src\Complete_MIPS.vhd
+.\src\REG.vhd
+.\src\stateToLEDR.vhd
+.\src\fastest_pll_0002.v
+.\src\fastest_pll.vhd

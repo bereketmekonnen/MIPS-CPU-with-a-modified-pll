@@ -1,0 +1,16 @@
+[Version]
+Version=10.5
+[Designs]
+part1=.\part1\part1.adf
+part2=.\part2\part2.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+part1=1
+part2=0
+[Settings]
+Active=part1

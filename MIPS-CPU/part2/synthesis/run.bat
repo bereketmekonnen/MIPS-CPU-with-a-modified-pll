@@ -1,0 +1,1 @@
+D:/intelFPGA_lite/17.1/quartus/bin64/quartus_sh.exe --flow compile part2.qpf -c Complete_MIPS > implementation.dfml

@@ -1,0 +1,165 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=part2
+
+[Library]
+part2=.\part2\part2.lib
+part2_timing=.\part2_timing\part2_timing.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+REFRESH_FLOW=1
+RUN_MODE_SYNTH=0
+SYNTH_STATUS=warnings
+IMPL_TOOL=
+SYNTH_TOOL=MV_QUARTUS_SYNTHESIS171
+CSYNTH_TOOL=
+PHYSSYNTH_TOOL=
+FAMILY=Quartus CycloneV
+IMPL_STATUS=warnings
+VerilogDirsChanged=0
+CSYNTH_STATUS=NONE
+PHYSSYNTH_STATUS=NONE
+WireDelay=2
+FUNC_LIB=part2
+TIM_LIB=part2_timing
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=1
+MonitoringOfEventsUDP=0
+DisablePulseError=0
+PulseErrorFilter=0
+ErrorLimit=100
+RejectionLimit=100
+SetErrorLimit=0
+SetRejectionLimit=0
+InitialRegsValue=X
+HasInitialRegsValue=0
+LibNames=altera;altera_lnsim;altera_lnsim_ver;altera_mf;altera_mf_ver;altera_ver;part2
+PriorityLibNames=
+
+[LocalVhdlSets]
+CompileWithDebug=1
+
+[$LibMap$]
+part2=.
+Active_lib=
+
+[SYNTHESIS]
+TOPLEVEL=Complete_MIPS
+FAMILY=Quartus CycloneV
+DEVICE=5CSXFC6D6F31C
+SPEED=7
+JOB_DESCRIPTION=SynthesisTask
+JOB_SFM_RESOURCE=
+ENABLE_SIGNALTAP=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=
+OVERWRITE_PROJECT=1
+AUTO_CLOSE=0
+QSF_FILE_SELECTION=synthesis/Complete_MIPS.qsf
+CHECK_PROJECT_OUTPUT_DIRECTORY=0
+CHECK_OPTIMIZE_HOLD_TIMING=1
+USE_SIGNALTAP_FILE=
+ENABLE_LOGIC_ANALYZER_INTERFACE=0
+USE_LOGIC_ANALYZER_INTERFACE_FILE=
+OLD_FAMILY=Quartus CycloneV
+CHECK_IMPORT_PIN_ASSIGNMENTS=1
+IMPORT_PIN_ASSIGNMENTS=.\..\..\my_first_fpga.qsf
+CHECK_GENERATE_FPGA_EXCHANGE_FILE=0
+GENERATE_FPGA_EXCHANGE_FILE=.\symbols\fpgaxchange
+BTM_IO_STANDARD=1.2V
+DEFAULT_QUARTUS_SETTINGS_FILE=..\..\..\intelFPGA_lite\17.1\quartus\bin64\assignment_defaults.qdf
+OUTPUT_IO_TIMING_NEAR_END_VMEAS_RISE=Half Signal Swing
+OUTPUT_IO_TIMING_NEAR_END_VMEAS_FALL=Half Signal Swing
+OUTPUT_IO_TIMING_FAR_END_VMEAS_RISE=Half Signal Swing
+OUTPUT_IO_TIMING_FAR_END_VMEAS_FALL=Half Signal Swing
+LAST_RUN=1551934433
+
+[PHYS_SYNTHESIS]
+FAMILY=
+DEVICE=
+SPEED=
+SCRIPTS_COPIED=0
+
+[IMPLEMENTATION]
+FLOW_STEPS_RESET=1
+DEVICE_TECHNOLOGY_MIGRATION_LIST=
+LAST_RUN=1551934433
+
+[Folders]
+Name3=Makefiles
+Directory3=C:\My_Designs\espinoza_lab3\part2\
+Extension3=mak
+Name4=Memory
+Directory4=C:\My_Designs\espinoza_lab3\part2\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=C:\My_Designs\espinoza_lab3\part2\
+Extension5=dll
+Name6=PDF
+Directory6=C:\My_Designs\espinoza_lab3\part2\
+Extension6=pdf
+Name7=HTML
+Directory7=C:\My_Designs\espinoza_lab3\part2\
+Extension7=htm;html
+Name8=ALINT-PRO Workspaces
+Directory8=C:\My_Designs\espinoza_lab3\part2\
+Extension8=alintws
+
+[SpecTracer]
+WindowVisible=0
+
+[Groups]
+timing=1
+
+[SIM.TIME]
+TOPLEVEL=Complete_MIPS
+SDF_PATH=
+
+[Files]
+/MIPS.vhd=-1
+/MUX.vhd=-1
+/hexToSevenSegment.vhd=-1
+/Memory.vhd=-1
+/Complete_MIPS.vhd=-1
+/REG.vhd=-1
+/stateToLEDR.vhd=-1
+/fastest_pll_0002.v=-1
+/fastest_pll.vhd=-1
+/weightedAverage2.asdb=-1
+/weightedAverage2.awc=-1
+
+[Files.Data]
+.\src\MIPS.vhd=VHDL Source Code
+.\src\MUX.vhd=VHDL Source Code
+.\src\hexToSevenSegment.vhd=VHDL Source Code
+.\src\Memory.vhd=VHDL Source Code
+.\src\Complete_MIPS.vhd=VHDL Source Code
+.\src\REG.vhd=VHDL Source Code
+.\src\stateToLEDR.vhd=VHDL Source Code
+.\src\fastest_pll_0002.v=Verilog Source Code
+.\src\fastest_pll.vhd=VHDL Source Code
+.\src\weightedAverage2.asdb=Accelerated Waveform File
+.\src\weightedAverage2.awc=Accelerated Waveform Configuration
+
